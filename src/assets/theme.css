@@ -1,0 +1,40 @@
+:root {
+  /* Colors */
+  --jo-gold: #D6C27A;
+  --jo-black: #000000;
+  --jo-white: #FFFFFF;
+  --jo-pink: #F4D1DF;
+  --jo-purple: #D5BFF5;
+  --jo-mint: #BAE9DF;
+  
+  /* Fonts */
+  /* Art Deco inspired / clean sans-serif */
+  --font-heading: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --font-body: 'Arial', sans-serif;
+
+  /* Other theme variables */
+  --jo-transition: 0.3s ease;
+  --jo-border-radius: 8px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--jo-white);
+  color: var(--jo-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
